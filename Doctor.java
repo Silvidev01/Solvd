@@ -3,13 +3,12 @@ package Hospital;
 public class Doctor extends Person{
         private String medicalspecialty;
         private int doctorID;
-        public Doctor (){medicalspecialty="";doctorID=0}
+        public Doctor (){medicalspecialty="";doctorID=0;}
 
     @Override
     public String print() {
-            System.out.println("Hola");
-
-    }
+          return medicalspecialty;
+           }
         public String getMedicalspecialty() {
         return medicalspecialty;
     }
